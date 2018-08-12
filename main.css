@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+
+.header_content h1{
+  font-family: Hanalei Fill;
+  color: #df473e;
+  letter-spacing: 10px;
+}
+
+.header_content p{
+  color: black;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+  @media only screen and (max-width: 526px) {
+      .header_content img{
+          display: none;
+      }
+  }
+
+  @media only screen and (max-width: 526px) {
+      .header_content h1{
+        white-space: nowrap;
+         letter-spacing: 3px;
+          font-size: 19px;
+      }
+  }
+
+  @media only screen and (max-width: 526px) {
+      .header_content p{
+          font-size: 12px;
+      }
+  }
+
+  .corousel-cell{
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 526px) {
+      .slide_1{
+          max-width: 320px !important;
+          max-width: 450px;
+      }
+  }
+
+  @media only screen and (max-width: 526px) {
+      .flickity-prev-next-button{
+          width: 22px;
+          height: 22px;
+      }
+  }
+
+  @media only screen and (max-width: 526px) {
+      .flickity-page-dots .dot{
+          background: red;
+     }
+  }
+
+
+  .flickity-page-dots .dot{
+      background: lightgreen;
+ }
+ .content_home h1{
+   font-size: 25px;
+   font-family: Hanalei Fill;
+   color: lightgreen;
+ }
+ .content_home p{
+   font-family: sans-serif;
+ }
+.footer_content{
+  height: auto;
+  width:auto;
+  background-color: black;
+}
+
+.footer_content p{
+  margin-top: 20px;
+  color: #ffffffff;
+}
+
+
+@media only screen and (max-width: 526px) {
+    #credits{
+        padding-right: 30px;
+   }
+}
+
+.social{
+  margin-top: 20px;
+                     display: inline-grid;
+                     align-items: center;
+                     text-decoration: none !important;
+                     text-align: center;
+                     font-size: 20px;
+                     color: #ffffff;
+                     height: 30px;
+                     width: 30px;
+                     border-radius: 50%;
+                     background-color: #fed136;
+                     -webkit-transition: all .3s;
+                   -moz-transition: all .3s;
+                   transition: all .3s;
+                   }
+
+                   .social:hover{background-color: #00e6e6;
+                     color: #fff;
+                    transform: rotate(360deg);
+                    -webkit-transition: all .3s;
+                  -moz-transition: all .3s;
+                  transition: all .3s;
+                  }
+
+.background_liberary{
+  background-image: url('assets/liberary.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: auto;
+}
+.background_liberary_overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 50vh;
+  width: auto;
+}
+.quote_liberary p{
+  font-family: Hanalei Fill;
+  color: lightgreen;
+  font-size: 30px;
+
+}
+
+.quote_liberary p{
+  text-align: center;
+  padding: 120px;
+;
+
+}
+@media only screen and (max-width: 526px) {
+    .background_liberary{
+           height: 25vh;
+   }
+}
+
+@media only screen and (max-width: 526px) {
+    .background_liberary_overlay{
+           height: 25vh;
+   }
+}
+
+@media only screen and (max-width: 526px) {
+    .quote_liberary p{
+      padding: 35px;
+           font-size: 15px;
+   }
+}
+
+@media only screen and (max-width: 526px) {
+    .content_social a{
+      align-items: center;
+      align-content: center;
+   }
+}
